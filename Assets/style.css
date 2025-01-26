@@ -1,0 +1,75 @@
+#lebronbody{
+    background: antiquewhite;
+    font-family: cursive;
+    margin: 20px;
+}
+
+  #h1L{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Lebronjames {
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+
+.lebronjamesimg{
+    border: 3px solid black;
+
+}
+
+.pdiv {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.phead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pdi {
+    border: solid black 5px;
+    padding: 3px;
+    margin: 20px; 
+    
+}
+
+.indexbody {
+    background-color: gray;
+}
+
+.pdesc{
+    margin: 20px;
+}
+.pimg {
+    margin: 20px; 
+}
+.podimgs {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+.podbody {
+    text-align: center;
+    font-family: cursive;
+    background-color:bisque;
+}
+
+.podtext {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
