@@ -57,6 +57,7 @@
 .pimg {
     margin: 10px;
     border: solid black 5px;
+    border-radius: 45px;
 }
 .podimgs {
     max-width: 200px;
@@ -100,4 +101,8 @@
   
   .navbar a:hover{
     background: crimson;
+  }
+
+  .pimg img{
+    border-radius: 40px;
   }
