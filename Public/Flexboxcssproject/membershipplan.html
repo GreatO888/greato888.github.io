@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Public/style.css">
+    <title>Great Ecommerce Website - Membership Plans</title>
+    <style>
+        
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.header {
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+.header p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+.pricing-plan {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.plan-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plan-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+}
+.plan-price {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+.plan-features {
+    list-style: none;
+    padding: 0;
+}
+.plan-features li {
+    margin: 8px 0;
+}
+.plan-link {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Seven Seas Pricing Plan</h1>
+        <p>Join our membership plans and enjoy exclusive benefits, fast shipping, and unbeatable discounts.</p>
+    </div>
+    <div class="pricing-container">
+      <div class="pricing-plan">
+          <img src="/Assets/free-shipping.jpg" alt="Free Shipping Club" class="plan-image">
+          <div class="plan-title">Free Shipping Club</div>
+          <div class="plan-price">$9.99/month</div>
+          <ul class="plan-features">
+              <li>✅ Unlimited free shipping</li>
+              <li>✅ Express or same-day delivery</li>
+              <li>🚫 No minimum order value</li>
+          </ul>
+          <a href="./free-shipping.html" class="plan-link">Learn More</a>
+      </div>
+      <div class="pricing-plan">
+          <img src="/Assets/vip-shopping.jpg" alt="VIP Shopping Pass" class="plan-image">
+          <div class="plan-title">VIP Shopping Pass</div>
+          <div class="plan-price">$19.99/month</div>
+          <ul class="plan-features">
+              <li>✅ Exclusive discounts & early sales access</li>
+              <li>✅ Personalized shopping deals</li>
+              <li>✅ Free returns on all orders</li>
+          </ul>
+          <a href="./vip-shopping.html" class="plan-link">Learn More</a>
+      </div>
+      <div class="pricing-plan">
+          <img src="/Assets/ultimate-shopper.jpg" alt="Ultimate Shopper" class="plan-image">
+          <div class="plan-title">Ultimate Shopper</div>
+          <div class="plan-price">$49.99/month</div>
+          <ul class="plan-features">
+              <li>✅ All VIP benefits included</li>
+              <li>✅ Same-day or priority delivery</li>
+              <li>✅ Cashback & reward points</li>
+          </ul>
+          <a href="./ultimate-shopper.html" class="plan-link">Learn More</a>
+      </div>
+  </div>
+</body>
+</html>
