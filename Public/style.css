@@ -92,6 +92,7 @@
     justify-content: center;
     background: darkgray;
     padding: 3px;
+    margin: 0px;
   }
   
   .navbar a{
@@ -101,7 +102,7 @@
   }
   
   .navbar a:hover{
-    background: crimson;
+    background: grey;
   }
 
   .pimg img{
