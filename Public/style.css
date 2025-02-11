@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   background: antiquewhite;
-  font-family: cursive;
+
   margin: 20px;
 }
 .lebroncontainer {
@@ -91,7 +91,6 @@
 
 .podbody {
     text-align: center;
-    font-family: cursive;
     background-color:bisque;
 }
 
