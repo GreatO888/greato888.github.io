@@ -1,24 +1,46 @@
-#lebronbody{
-    background: antiquewhite;
-    font-family: cursive;
-    margin: 20px;
+#lebronbody {
+  display: grid;
+  place-items: center;
+  background: antiquewhite;
+  font-family: cursive;
+  margin: 20px;
 }
-
-  #h1L{
-    font-weight: bold;
-    font-size: 40px;
+.lebroncontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
 }
-
+#h1L {
+  font-weight: bold;
+  font-size: 40px;
+}
 #Lebronjames {
-    margin:10px;
-    padding:10px;
-    text-align: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
-
-
-.lebronjamesimg{
-    border: 3px solid black;
-
+.lebronsection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background: #fff3e3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.lebronjamesimg {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.lebronsectionmore a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
 }
 
 .pdiv {
@@ -80,7 +102,7 @@
     margin-bottom: 3%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .pdiv {
       flex-direction: column;
       align-items: center;
